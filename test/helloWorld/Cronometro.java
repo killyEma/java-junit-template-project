@@ -10,8 +10,12 @@ public class Cronometro(){
     segundos=0;
   }
   
-  public void mostrar(){
-    
+  public int getSegundos(){
+    return segundos;
+  }
+  
+  public int getMinutos(){
+    return minutos;
   }
 
   public void aumentar(){
