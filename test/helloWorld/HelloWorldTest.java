@@ -33,7 +33,7 @@ public class HelloWorldTest {
 		for(int i=0; i<5940;i++){
 		  c.aumentar();
 		}
-		assertEquals("cinco minutos", 5940, c.getMinutos());
+		assertEquals("cinco minutos", 99, c.getMinutos());
 		assertEquals("cero segundos", 0, c.getSegundos());
 	}
 }
