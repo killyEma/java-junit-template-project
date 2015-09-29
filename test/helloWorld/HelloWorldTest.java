@@ -9,7 +9,7 @@ import uk.co.placona.helloWorld.HelloWorld;
 public class HelloWorldTest {
 	@Test
 	public void testHellowWorld(){
-		Cronometro c = new Cronometro();
+		HelloWorld  c = new HelloWorld();
 		for(int i=0; i<60;i++){
 		  c.aumentar();
 		}
