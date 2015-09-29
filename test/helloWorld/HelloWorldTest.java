@@ -13,6 +13,6 @@ public class HelloWorldTest {
 		for(int i=0; i<60;i++){
 		  c.aumentar();
 		}
-		assertEquals("un minuto", 0, c.getMinutos());
+		assertEquals("un minuto", 1, c.getMinutos());
 	}
 }
