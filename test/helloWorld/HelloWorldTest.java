@@ -16,4 +16,24 @@ public class HelloWorldTest {
 		assertEquals("un minuto", 2, c.getMinutos());
 		assertEquals("cero segundos", 0, c.getSegundos());
 	}
+	
+	@Test
+	public void testCincoMinutos(){
+		HelloWorld  c = new HelloWorld();
+		for(int i=0; i<321;i++){
+		  c.aumentar();
+		}
+		assertEquals("cinco minutos", 5, c.getMinutos());
+		assertEquals("veinti un segundos", 21, c.getSegundos());
+	}
+	
+	@Test
+	public void testCincoMinutos(){
+		HelloWorld  c = new HelloWorld();
+		for(int i=0; i<5940;i++){
+		  c.aumentar();
+		}
+		assertEquals("cinco minutos", 5940, c.getMinutos());
+		assertEquals("cero segundos", 0, c.getSegundos());
+	}
 }
