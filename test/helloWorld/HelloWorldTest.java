@@ -10,10 +10,10 @@ public class HelloWorldTest {
 	@Test
 	public void testHellowWorld(){
 		HelloWorld  c = new HelloWorld();
-		for(int i=0; i<120;i++){
+		for(int i=0; i<121;i++){
 		  c.aumentar();
 		}
-		assertEquals("un minuto", 4, c.getMinutos());
+		assertEquals("un minuto", 2, c.getMinutos());
 		assertEquals("cero segundos", 0, c.getSegundos());
 	}
 }
