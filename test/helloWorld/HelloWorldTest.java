@@ -10,7 +10,7 @@ public class HelloWorldTest {
 	@Test
 	public void testHellowWorld(){
 		HelloWorld  c = new HelloWorld();
-		for(int i=0; i<121;i++){
+		for(int i=0; i<120;i++){
 		  c.aumentar();
 		}
 		assertEquals("un minuto", 2, c.getMinutos());
