@@ -28,7 +28,7 @@ public class HelloWorldTest {
 	}
 	
 	@Test
-	public void testCincoMinutos(){
+	public void testMasMinutos(){
 		HelloWorld  c = new HelloWorld();
 		for(int i=0; i<5940;i++){
 		  c.aumentar();
